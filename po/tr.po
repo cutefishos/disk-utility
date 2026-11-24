@@ -1,0 +1,2453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cutefish-disk-utility\n"
+"Report-Msgid-Bugs-To: https://github.com\n"
+"POT-Creation-Date: 2026-11-21 01:52+0800\n"
+"PO-Revision-Date: 2026-11-21 01:52+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/actions.cpp src/views/diskwindow.cpp
+msgid "View"
+msgstr "Görünüm"
+
+#: src/actions.cpp
+msgid "Add Partition…"
+msgstr "Bölüm Ekle…"
+
+#: src/actions.cpp
+msgid "Delete Partition…"
+msgstr "Bölümü Sil…"
+
+#: src/actions.cpp
+msgid "First Aid…"
+msgstr "İlk Yardım…"
+
+#: src/actions.cpp
+msgid "Partition…"
+msgstr "Bölümle…"
+
+#: src/actions.cpp
+msgid "Erase…"
+msgstr "Sil…"
+
+#: src/actions.cpp
+msgid "Restore…"
+msgstr "Geri Yükle…"
+
+#: src/actions.cpp
+msgid "Mount"
+msgstr "Bağla"
+
+#: src/actions.cpp src/dialogs/diskimages.cpp
+msgid "Unmount"
+msgstr "Ayır"
+
+#: src/actions.cpp
+msgid "Get Info"
+msgstr "Bilgi Al"
+
+#: src/actions.cpp
+msgid "Eject"
+msgstr "Çıkar"
+
+#: src/actions.cpp
+msgid "Rename…"
+msgstr "Yeniden Adlandır…"
+
+#: src/actions.cpp
+msgid "Lock"
+msgstr "Kilitle"
+
+#: src/actions.cpp
+msgid "Open Disk Image…"
+msgstr "Disk Kalıbı Aç…"
+
+#: src/actions.cpp
+msgid "Blank Image…"
+msgstr "Boş Kalıp…"
+
+#: src/actions.cpp
+msgid "Image from Selection…"
+msgstr "Seçimden Kalıp Oluştur…"
+
+#: src/actions.cpp
+msgid "An operation on this disk is in progress."
+msgstr "Bu disk üzerinde bir işlem devam ediyor."
+
+#: src/actions.cpp
+msgid "Nothing is restored onto the system's disk: the copy would bring another volume's identity, and the computer could start from the wrong one."
+msgstr "Sistem diskine hiçbir şey geri yüklenmez: kopyalama işlemi başka bir birimin kimliğini getirebilir ve bilgisayar yanlış birimden başlayabilir."
+
+#: src/actions.cpp src/dialogs/partition_plan.cpp
+#: src/dialogs/volume_actions.cpp
+msgid "A Master Boot Record holds at most four partitions."
+msgstr "Ana Önyükleme Kaydı (MBR) en fazla dört bölüm barındırabilir."
+
+#: src/actions.cpp src/dialogs/partition_plan.cpp
+#: src/dialogs/volume_actions.cpp
+msgid "There is no free space for another partition."
+msgstr "Başka bir bölüm için boş alan yok."
+
+#: src/actions.cpp
+msgid "A partition in it is mounted or unlocked."
+msgstr "İçindeki bir bölüm bağlı veya kilidi açılmış durumda."
+
+#: src/dialogs/choice_button.cpp
+#, python-brace-format
+msgid "{choice} ({reason})"
+msgstr "{choice} ({reason})"
+
+#: src/dialogs/copyprogress.cpp
+msgid "Preparing…"
+msgstr "Hazırlanıyor…"
+
+#: src/dialogs/copyprogress.cpp src/dialogs/erase.cpp src/dialogs/partition.cpp
+msgid "Stop"
+msgstr "Durdur"
+
+#: src/dialogs/copyprogress.cpp
+msgid "Stopping…"
+msgstr "Durduruluyor…"
+
+#: src/dialogs/copyprogress.cpp
+msgid "Unmounting…"
+msgstr "Ayrılıyor…"
+
+#: src/dialogs/copyprogress.cpp
+msgid "Opening…"
+msgstr "Açılıyor…"
+
+#: src/dialogs/copyprogress.cpp
+msgid "Stopped. The incomplete image file was removed."
+msgstr "Durduruldu. Tamamlanmamış kalıp dosyası kaldırıldı."
+
+#: src/dialogs/copyprogress.cpp
+msgid "Stopped."
+msgstr "Durduruldu."
+
+#: src/dialogs/copyprogress.cpp
+msgid "The destination was overwritten in part. Restore or erase it again before you use it."
+msgstr "Hedefin bir kısmının üzerine yazıldı. Kullanmadan önce tekrar geri yükleyin veya silin."
+
+#: src/dialogs/copyprogress.cpp
+msgid "The incomplete image file was removed."
+msgstr "Tamamlanmamış kalıp dosyası kaldırıldı."
+
+#: src/dialogs/diskimages.cpp
+msgid "The new image could not be mounted."
+msgstr "Yeni kalıp bağlanamadı."
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "Restoring “{name}”"
+msgstr "“{name}” geri yükleniyor"
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "Copying “{source}” onto “{target}”."
+msgstr "“{source}”, “{target}” üzerine kopyalanıyor."
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "“{name}” was restored."
+msgstr "“{name}” geri yüklendi."
+
+#: src/dialogs/diskimages.cpp
+msgid "A copy is in progress."
+msgstr "Bir kopyalama işlemi devam ediyor."
+
+#: src/dialogs/diskimages.cpp src/views/sidebar.cpp
+msgid "Disk Images"
+msgstr "Disk Kalıpları"
+
+#: src/dialogs/diskimages.cpp
+msgid "All Files"
+msgstr "Tüm Dosyalar"
+
+#: src/dialogs/diskimages.cpp
+msgid "Open Disk Image"
+msgstr "Disk Kalıbı Aç"
+
+#: src/dialogs/diskimages.cpp
+msgid "Open"
+msgstr "Aç"
+
+#: src/dialogs/diskimages.cpp
+msgid "Open read-only"
+msgstr "Salt okunur aç"
+
+#: src/dialogs/diskimages.cpp
+msgid "Restore from Disk Image"
+msgstr "Disk Kalıbından Geri Yükle"
+
+#: src/dialogs/diskimages.cpp
+msgid "Choose"
+msgstr "Seç"
+
+#: src/dialogs/diskimages.cpp
+msgid "Save Image As"
+msgstr "Kalıbı Farklı Kaydet"
+
+#: src/dialogs/diskimages.cpp
+msgid "Save"
+msgstr "Kaydet"
+
+#: src/dialogs/diskimages.cpp
+msgid "Choose a Folder"
+msgstr "Bir Klasör Seçin"
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "“{name}” could not be opened."
+msgstr "“{name}” açılamadı."
+
+#: src/dialogs/diskimages.cpp src/dialogs/newimage.cpp
+#: src/dialogs/volume_format.cpp
+msgid "Untitled"
+msgstr "Adsız"
+
+#: src/dialogs/diskimages.cpp
+msgid "The image could not be created."
+msgstr "Kalıp oluşturulamadı."
+
+#: src/dialogs/diskimages.cpp
+msgid "The file is an attached disk image. Eject it first."
+msgstr "Dosya bağlı bir disk kalıbıdır. Önce çıkarın."
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "The image cannot be saved on “{name}” itself. Choose a folder on another disk."
+msgstr "Kalıp “{name}” üzerine kaydedilemez. Başka bir diskte bir klasör seçin."
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "“{name}” holds the running system, so it cannot be unmounted to be read."
+msgstr "“{name}” çalışan sistemi barındırıyor, bu nedenle okunmak üzere ayrılamaz."
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "Creating “{name}”"
+msgstr "“{name}” oluşturuluyor"
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "Copying “{source}” into “{file}”."
+msgstr "“{source}”, “{file}” içine kopyalanıyor."
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "“{file}” was created."
+msgstr "“{file}” oluşturuldu."
+
+#: src/dialogs/diskimages.cpp
+#, python-brace-format
+msgid "“{name}” must be unmounted to make an image of it."
+msgstr "Kalıbının oluşturulabilmesi için “{name}” ayrılmalıdır."
+
+#: src/dialogs/diskimages.cpp
+msgid "It is unmounted, and locked when it is encrypted, before it is read, and stays so afterwards."
+msgstr "Okunmadan önce ayrılır (şifreliyse kilitlenir) ve işlem sonrasında da öyle kalır."
+
+#: src/dialogs/diskimages.cpp
+msgid "Another copy is in progress."
+msgstr "Başka bir kopyalama işlemi devam ediyor."
+
+#: src/dialogs/diskimages.cpp
+msgid "Wait for it to finish, or stop it first."
+msgstr "Bitmesini bekleyin veya önce durdurun."
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "Erase “{name}”"
+msgstr "“{name}” Öğesini Sil"
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "Erasing “{name}” deletes every volume on it and everything stored on them. This can't be undone. Choose a name, a format and a partition scheme for it."
+msgstr "“{name}” öğesini silmek üzerindeki tüm birimleri ve içlerindeki her şeyi siler. Bu işlem geri alınamaz. Bunun için bir ad, biçim ve bölümlendirme düzeni seçin."
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "Erasing “{name}” deletes everything stored on it. This can't be undone. Choose a name and a format for it."
+msgstr "“{name}” öğesini silmek üzerinde depolanan her şeyi siler. Bu işlem geri alınamaz. Bunun için bir ad ve biçim seçin."
+
+#: src/dialogs/erase.cpp src/dialogs/newimage.cpp src/dialogs/partition.cpp
+#: src/dialogs/rename.cpp src/dialogs/volume_actions.cpp
+#: src/udisks/properties.cpp
+msgid "Name"
+msgstr "Ad"
+
+#: src/dialogs/erase.cpp src/dialogs/newimage.cpp src/dialogs/partition.cpp
+#: src/dialogs/volume_actions.cpp src/udisks/properties.cpp
+msgid "Format"
+msgstr "Biçim"
+
+#: src/dialogs/erase.cpp src/dialogs/newimage.cpp
+msgid "Scheme"
+msgstr "Düzen"
+
+#: src/dialogs/erase.cpp
+msgid "Encrypt"
+msgstr "Şifrele"
+
+#: src/dialogs/erase.cpp src/dialogs/unlock.cpp
+msgid "Passphrase"
+msgstr "Parola"
+
+#: src/dialogs/erase.cpp src/dialogs/unlock.cpp
+msgid "Required"
+msgstr "Gerekli"
+
+#: src/dialogs/erase.cpp src/dialogs/newimage.cpp
+msgid "Verify"
+msgstr "Doğrula"
+
+#: src/dialogs/erase.cpp
+msgid "The volume can only be read after unlocking it with the passphrase. If you forget the passphrase, the data can't be recovered."
+msgstr "Birim yalnızca parola ile kilidi açıldıktan sonra okunabilir. Parolayı unutursanız veriler kurtarılamaz."
+
+#: src/dialogs/erase.cpp
+msgid "Security Options…"
+msgstr "Güvenlik Seçenekleri…"
+
+#: src/dialogs/erase.cpp
+msgid "Erase"
+msgstr "Sil"
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "needs at least {size}"
+msgstr "en az {size} gerektirir"
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "{format} can't be chosen: {reason}"
+msgstr "{format} seçilemiyor: {reason}"
+
+#: src/dialogs/erase.cpp
+msgid "The passphrases don't match."
+msgstr "Parolalar eşleşmiyor."
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "A Master Boot Record reaches only the first {reach} of “{name}”; the other {rest} stay unused. Choose GUID Partition Map to use all of it."
+msgstr "Ana Önyükleme Kaydı (MBR), “{name}” diskinin yalnızca ilk {reach} kadarlık kısmına erişebilir; kalan {rest} kullanılmadan kalır. Tamamını kullanmak için GUID Bölümlendirme Haritası'nı seçin."
+
+#: src/dialogs/erase.cpp
+msgid "The data is overwritten with zeros first, which takes as long as writing the whole volume once."
+msgstr "Verilerin üzerine önce sıfırlar yazılır; bu işlem tüm birime bir kez veri yazmak kadar sürer."
+
+#: src/dialogs/erase.cpp
+msgid "Quick Erase"
+msgstr "Hızlı Sil"
+
+#: src/dialogs/erase.cpp
+msgid "Zero Out Data"
+msgstr "Verilerin Üzerine Sıfır Yaz"
+
+#: src/dialogs/erase.cpp src/dialogs/partition.cpp
+msgid "Done"
+msgstr "Bitti"
+
+#: src/dialogs/erase.cpp src/dialogs/partition.cpp
+#, python-brace-format
+msgid "Step {step} of {count}"
+msgstr "Adım {step} / {count}"
+
+#: src/dialogs/erase.cpp src/dialogs/partition.cpp
+#, python-brace-format
+msgid "Stopping “{step}”…"
+msgstr "“{step}” durduruluyor…"
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "“{name}” was erased."
+msgstr "“{name}” silindi."
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "“{name}” was erased only in part and has no usable volume now. Erase it again to use it."
+msgstr "“{name}” yalnızca kısmen silindi ve şu anda kullanılabilir bir birimi yok. Kullanmak için tekrar silin."
+
+#: src/dialogs/erase.cpp
+#, python-brace-format
+msgid "“{name}” was not erased; nothing stored on it was changed."
+msgstr "“{name}” silinmedi; üzerinde depolanan hiçbir şey değiştirilmedi."
+
+#: src/dialogs/erase.cpp src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{step}” was stopped before it finished."
+msgstr "“{step}” tamamlanmadan durduruldu."
+
+#: src/dialogs/erase.cpp src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{step}” was cancelled."
+msgstr "“{step}” iptal edildi."
+
+#: src/dialogs/erase.cpp src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{step}” failed."
+msgstr "“{step}” başarısız oldu."
+
+#: src/dialogs/erase.cpp src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{step}” failed: {message}"
+msgstr "“{step}” başarısız oldu: {message}"
+
+#: src/dialogs/firstaid.cpp
+msgid "Hide Details"
+msgstr "Ayrıntıları Gizle"
+
+#: src/dialogs/firstaid.cpp
+msgid "Show Details"
+msgstr "Ayrıntıları Göster"
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "Checking {format} volumes needs {tool}, which is not installed."
+msgstr "{format} birimlerini denetlemek için {tool} gerekir, ancak kurulu değil."
+
+#: src/dialogs/firstaid.cpp src/dialogs/identity_guard.cpp
+#, python-brace-format
+msgid "“{name}” is no longer there."
+msgstr "“{name}” artık mevcut değil."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid checks every volume on the disk for errors and repairs the ones it finds. Mounted volumes are unmounted while they are checked and mounted again afterwards."
+msgstr "İlk Yardım, diskteki her birimi hatalara karşı denetler ve bulduklarını onarır. Bağlı birimler denetlenirken ayrılır ve sonrasında tekrar bağlanır."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid checks every volume on the disk for errors and repairs the ones it finds."
+msgstr "İlk Yardım, diskteki her birimi hatalara karşı denetler ve bulduklarını onarır."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid checks the volume for errors and repairs the ones it finds. The volume is unmounted while it is checked, so its files can’t be used until it’s done."
+msgstr "İlk Yardım, birimi hatalara karşı denetler ve bulduklarını onarır. Birim denetlenirken ayrılır, bu nedenle işlem bitene kadar dosyaları kullanılamaz."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid checks the volume for errors and repairs the ones it finds."
+msgstr "İlk Yardım, birimi hatalara karşı denetler ve bulduklarını onarır."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "Run First Aid on “{name}”?"
+msgstr "“{name}” üzerinde İlk Yardım çalıştırılsın mı?"
+
+#: src/dialogs/firstaid.cpp
+msgid "Run"
+msgstr "Çalıştır"
+
+#: src/dialogs/firstaid.cpp
+msgid "There are no volumes to check."
+msgstr "Denetlenecek birim yok."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "Checking “{name}”…"
+msgstr "“{name}” denetleniyor…"
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "“{name}” is no longer there. Skipped."
+msgstr "“{name}” artık mevcut değil. Atlandı."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "“{name}” is locked. Unlock it to check it. Skipped."
+msgstr "“{name}” kilitli. Denetlemek için kilidini açın. Atlandı."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "“{name}” holds no file system First Aid can check. Skipped."
+msgstr "“{name}”, İlk Yardım'ın denetleyebileceği bir dosya sistemi barındırmıyor. Atlandı."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "Checking “{name}” ({device}, {format})."
+msgstr "“{name}” ({device}, {format}) denetleniyor."
+
+#: src/dialogs/firstaid.cpp
+msgid "unknown format"
+msgstr "bilinmeyen biçim"
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "UDisks2 could not tell whether {format} volumes can be checked. Try again later."
+msgstr "UDisks2, {format} birimlerinin denetlenip denetlenemeyeceğini belirleyemedi. Daha sonra tekrar deneyin."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "{format} volumes can’t be checked: {tool} is not installed."
+msgstr "{format} birimleri denetlenemiyor: {tool} kurulu değil."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "Unmounting “{name}”."
+msgstr "“{name}” ayrılıyor."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "“{name}” is in use and can’t be unmounted. Close the files and quit the programs using it, then run First Aid again."
+msgstr "“{name}” kullanımda ve ayrılamıyor. Dosyaları kapatın, birimi kullanan programlardan çıkın ve İlk Yardım'ı tekrar çalıştırın."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "“{name}” is in use by {programs} and can’t be unmounted. Close their files on it or quit them, then run First Aid again."
+msgstr "“{name}”, {programs} tarafından kullanılıyor ve ayrılamıyor. İlgili dosyaları kapatın veya programlardan çıkın, ardından İlk Yardım'ı tekrar çalıştırın."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "“{name}” could not be unmounted: {message}"
+msgstr "“{name}” ayrılamadı: {message}"
+
+#: src/dialogs/firstaid.cpp
+msgid "Checking the file system."
+msgstr "Dosya sistemi denetleniyor."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "The check failed: {message}"
+msgstr "Denetim başarısız oldu: {message}"
+
+#: src/dialogs/firstaid.cpp
+msgid "The file system appears to be OK."
+msgstr "Dosya sistemi sorunsuz görünüyor."
+
+#: src/dialogs/firstaid.cpp
+msgid "The file system has errors."
+msgstr "Dosya sisteminde hatalar var."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "UDisks2 could not tell whether {format} volumes can be repaired."
+msgstr "UDisks2, {format} birimlerinin onarılıp onarılamayacağını belirleyemedi."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "{format} volumes can’t be repaired: {tool} is not installed."
+msgstr "{format} birimleri onarılamıyor: {tool} kurulu değil."
+
+#: src/dialogs/firstaid.cpp
+msgid "Repairing the file system."
+msgstr "Dosya sistemi onarılıyor."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "Repairing “{name}”…"
+msgstr "“{name}” onarılıyor…"
+
+#: src/dialogs/firstaid.cpp
+msgid "The file system was repaired."
+msgstr "Dosya sistemi onarıldı."
+
+#: src/dialogs/firstaid.cpp
+msgid "The file system could not be repaired."
+msgstr "Dosya sistemi onarılamadı."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "The repair failed: {message}"
+msgstr "Onarım başarısız oldu: {message}"
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "Mounting “{name}” again."
+msgstr "“{name}” tekrar bağlanıyor."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "“{name}” could not be mounted again: {message}"
+msgstr "“{name}” tekrar bağlanamadı: {message}"
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid was cancelled."
+msgstr "İlk Yardım iptal edildi."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid found errors it could not repair. Back up the data you can and erase the volume."
+msgstr "İlk Yardım onaramadığı hatalar buldu. Kurtarabildiğiniz verileri yedekleyin ve birimi silin."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid process has failed."
+msgstr "İlk Yardım işlemi başarısız oldu."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid process has completed."
+msgstr "İlk Yardım işlemi tamamlandı."
+
+#: src/dialogs/firstaid.cpp
+#, python-brace-format
+msgid "{n} volume was skipped."
+msgid_plural "{n} volumes were skipped."
+msgstr[0] "{n} birim atlandı."
+msgstr[1] "{n} birim atlandı."
+
+#: src/dialogs/firstaid.cpp
+msgid "First Aid"
+msgstr "İlk Yardım"
+
+#: src/dialogs/identity_guard.cpp
+msgid "It was removed or replaced by another disk, so nothing more is done to it."
+msgstr "Çıkarıldı veya başka bir diskle değiştirildi, bu nedenle üzerinde başka işlem yapılmadı."
+
+#: src/dialogs/info.cpp
+msgid "S.M.A.R.T. Details…"
+msgstr "S.M.A.R.T. Ayrıntıları…"
+
+#: src/dialogs/mount.cpp
+msgid " and "
+msgstr " ve "
+
+#: src/dialogs/mount.cpp
+#, python-brace-format
+msgid "“{name}” couldn’t be mounted."
+msgstr "“{name}” bağlanamadı."
+
+#: src/dialogs/mount.cpp
+#, python-brace-format
+msgid "“{name}” couldn’t be unmounted."
+msgstr "“{name}” ayrılamadı."
+
+#: src/dialogs/mount.cpp
+#, python-brace-format
+msgid "“{name}” couldn’t be locked."
+msgstr "“{name}” kilitlenemedi."
+
+#: src/dialogs/mount.cpp
+#, python-brace-format
+msgid "“{name}” couldn’t be ejected."
+msgstr "“{name}” çıkarılamadı."
+
+#: src/dialogs/mount.cpp
+msgid "A program is still using a file on it. Close the files and quit the programs using it, then try again."
+msgstr "Bir program hâlâ üzerindeki bir dosyayı kullanıyor. Dosyaları kapatın, birimi kullanan programlardan çıkın ve tekrar deneyin."
+
+#: src/dialogs/mount.cpp
+#, python-brace-format
+msgid "It is in use by {programs}. Close their files on it or quit them, then try again."
+msgstr "{programs} tarafından kullanılıyor. İlgili dosyaları kapatın veya programlardan çıkın, ardından tekrar deneyin."
+
+#: src/dialogs/mount.cpp
+msgid "Another operation on this disk is still running."
+msgstr "Bu disk üzerindeki başka bir işlem hâlâ devam ediyor."
+
+#: src/dialogs/newimage.cpp
+msgid "New Blank Image"
+msgstr "Yeni Boş Kalıp"
+
+#: src/dialogs/newimage.cpp
+msgid "Save As"
+msgstr "Farklı Kaydet"
+
+#: src/dialogs/newimage.cpp
+msgid "Where"
+msgstr "Konum"
+
+#: src/dialogs/newimage.cpp
+msgid "Choose…"
+msgstr "Seç…"
+
+#: src/dialogs/newimage.cpp src/dialogs/partition.cpp
+#: src/dialogs/volume_actions.cpp src/udisks/properties.cpp
+msgid "Size"
+msgstr "Boyut"
+
+#: src/dialogs/newimage.cpp src/udisks/properties.cpp
+msgid "None"
+msgstr "Yok"
+
+#: src/dialogs/newimage.cpp src/udisks/properties.cpp
+msgid "Encryption"
+msgstr "Şifreleme"
+
+#: src/dialogs/newimage.cpp
+msgid "Encrypted with a Password"
+msgstr "Parola ile Şifreli"
+
+#: src/dialogs/newimage.cpp
+msgid "Password"
+msgstr "Parola"
+
+#: src/dialogs/newimage.cpp
+msgid "Create"
+msgstr "Oluştur"
+
+#: src/dialogs/newimage.cpp
+msgid "Type a name for the image file."
+msgstr "Kalıp dosyası için bir ad yazın."
+
+#: src/dialogs/newimage.cpp
+msgid "The folder is no longer there."
+msgstr "Klasör artık mevcut değil."
+
+#: src/dialogs/newimage.cpp
+#, python-brace-format
+msgid "A file named “{name}” already exists in this folder."
+msgstr "Bu klasörde “{name}” adlı bir dosya zaten var."
+
+#: src/dialogs/newimage.cpp
+msgid "Type a size, such as 100 MB."
+msgstr "100 MB gibi bir boyut yazın."
+
+#: src/dialogs/newimage.cpp
+#, python-brace-format
+msgid "A {format} image needs at least {size}."
+msgstr "{format} kalıbı için en az {size} gerekir."
+
+#: src/dialogs/newimage.cpp
+msgid "Type a password for the image."
+msgstr "Kalıp için bir parola yazın."
+
+#: src/dialogs/newimage.cpp
+msgid "The passwords do not match."
+msgstr "Parolalar eşleşmiyor."
+
+#: src/dialogs/newimage.cpp
+msgid "Creating the file…"
+msgstr "Dosya oluşturuluyor…"
+
+#: src/dialogs/newimage.cpp
+msgid "Attaching the image…"
+msgstr "Kalıp bağlanıyor…"
+
+#: src/dialogs/newimage.cpp
+msgid "Creating the partition map…"
+msgstr "Bölümlendirme haritası oluşturuluyor…"
+
+#: src/dialogs/newimage.cpp
+msgid "Formatting…"
+msgstr "Biçimlendiriliyor…"
+
+#: src/dialogs/newimage.cpp
+msgid "Mounting…"
+msgstr "Bağlanıyor…"
+
+#: src/dialogs/partition.cpp src/dialogs/volume_actions.cpp
+msgid "Add Partition"
+msgstr "Bölüm Ekle"
+
+#: src/dialogs/partition.cpp
+msgid "Delete Partition"
+msgstr "Bölümü Sil"
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "Partition “{name}”"
+msgstr "“{name}” Öğesini Bölümle"
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{name}” ({size}) has no partition map. Click + to add partitions; Apply creates a GUID Partition Map for them, erasing what is on the disk."
+msgstr "“{name}” ({size}) üzerinde bölümlendirme haritası yok. Bölüm eklemek için + simgesine tıklayın; Uygula seçeneği disktekileri silerek bunlar için bir GUID Bölümlendirme Haritası oluşturur."
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "{scheme}, {size}. Click + to add a partition, drag the handles on the rim to resize. Nothing changes until you click Apply."
+msgstr "{scheme}, {size}. Bölüm eklemek için + simgesine tıklayın, yeniden boyutlandırmak için kenardaki tutamaçları sürükleyin. Uygula'ya tıklayana kadar hiçbir değişiklik yapılmaz."
+
+#: src/dialogs/partition.cpp
+msgid "Revert"
+msgstr "Geri Al"
+
+#: src/dialogs/partition.cpp
+msgid "Apply"
+msgstr "Uygula"
+
+#: src/dialogs/partition.cpp
+msgid "Free Space"
+msgstr "Boş Alan"
+
+#: src/dialogs/partition.cpp src/views/detailcontent.cpp
+msgid "Unformatted"
+msgstr "Biçimlendirilmemiş"
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "Between {minimum} and {maximum}."
+msgstr "{minimum} ile {maximum} arasında."
+
+#: src/dialogs/partition.cpp
+msgid "How far the filesystem can shrink is only known when it is applied; a shrink runs before anything is deleted."
+msgstr "Dosya sisteminin ne kadar küçültülebileceği yalnızca işlem uygulandığında bilinir; küçültme işlemi herhangi bir şey silinmeden önce çalıştırılır."
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "Changing the format erases everything on “{name}”."
+msgstr "Biçimi değiştirmek “{name}” üzerindeki her şeyi siler."
+
+#: src/dialogs/partition.cpp
+msgid "Click + to add a partition in this free space."
+msgstr "Bu boş alana bölüm eklemek için + simgesine tıklayın."
+
+#: src/dialogs/partition.cpp src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "{format} can't be made: {reason}"
+msgstr "{format} oluşturulamıyor: {reason}"
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "These steps will be taken on “{name}”, in this order:"
+msgstr "“{name}” üzerinde şu adımlar belirtilen sırayla uygulanacaktır:"
+
+#: src/dialogs/partition.cpp
+msgid "Deleted and erased volumes lose everything stored on them. Resizing can take a while; keep the disk connected until it is done."
+msgstr "Silinen ve temizlenen birimlerde depolanan her şey kaybolur. Yeniden boyutlandırma biraz zaman alabilir; işlem bitene kadar diski bağlı tutun."
+
+#: src/dialogs/partition.cpp
+msgid "Resizing can take a while; keep the disk connected until it is done."
+msgstr "Yeniden boyutlandırma biraz zaman alabilir; işlem bitene kadar diski bağlı tutun."
+
+#: src/dialogs/partition.cpp
+msgid "Back"
+msgstr "Geri"
+
+#: src/dialogs/partition.cpp src/udisks/properties.cpp
+#: src/views/detailcontent.cpp
+msgid "Partition"
+msgstr "Bölüm"
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{name}” was partitioned."
+msgstr "“{name}” bölümlendirildi."
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "Nothing was changed on “{name}”."
+msgstr "“{name}” üzerinde hiçbir değişiklik yapılmadı."
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{name}” was partitioned only in part: “{step}” may have changed it before it failed."
+msgstr "“{name}” yalnızca kısmen bölümlendirildi: “{step}” başarısız olmadan önce değişiklik yapmış olabilir."
+
+#: src/dialogs/partition.cpp
+#, python-brace-format
+msgid "“{name}” was partitioned only in part: the first {count} steps were taken."
+msgstr "“{name}” yalnızca kısmen bölümlendirildi: ilk {count} adım uygulandı."
+
+#: src/dialogs/partition_plan.cpp
+msgid "Encrypted volumes can't be resized here."
+msgstr "Şifreli birimler burada yeniden boyutlandırılamaz."
+
+#: src/dialogs/partition_plan.cpp
+msgid "The partition has no filesystem that can be resized."
+msgstr "Bölümde yeniden boyutlandırılabilecek bir dosya sistemi yok."
+
+#: src/dialogs/partition_plan.cpp
+msgid "Checking whether the filesystem can be resized…"
+msgstr "Dosya sisteminin yeniden boyutlandırılıp boyutlandırılamayacağı denetleniyor…"
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "Resizing {format} needs {tool}, which is not installed."
+msgstr "{format} yeniden boyutlandırmak için {tool} gerekir, ancak kurulu değil."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "{format} can't be resized."
+msgstr "{format} yeniden boyutlandırılamaz."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "Unmount “{name}” to shrink it."
+msgstr "Küçültmek için “{name}” birimini ayırın."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "Unmount “{name}” to grow it."
+msgstr "Büyütmek için “{name}” birimini ayırın."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "Mount “{name}” to shrink it."
+msgstr "Küçültmek için “{name}” birimini bağlayın."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "Mount “{name}” to grow it."
+msgstr "Büyütmek için “{name}” birimini bağlayın."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "{format} can't shrink."
+msgstr "{format} küçültülemez."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "{format} can't grow."
+msgstr "{format} büyütülemez."
+
+#: src/dialogs/partition_plan.cpp src/dialogs/volume_actions.cpp
+msgid "The partition map holds no more partitions."
+msgstr "Bölümlendirme haritası daha fazla bölüm alamıyor."
+
+#: src/dialogs/partition_plan.cpp
+msgid "Extended partitions and the partitions inside them can't be changed here."
+msgstr "Genişletilmiş bölümler ve içlerindeki bölümler burada değiştirilemez."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "“{name}” is too small for {format}, which needs at least {size}."
+msgstr "“{name}”, en az {size} gerektiren {format} için çok küçük."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "“{name}” can't be resized."
+msgstr "“{name}” yeniden boyutlandırılamaz."
+
+#: src/dialogs/partition_plan.cpp
+#, python-brace-format
+msgid "“{name}” can't be smaller than {size}."
+msgstr "“{name}”, {size} boyutundan küçük olamaz."
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Unmount “{name}”"
+msgstr "“{name}” birimini ayır"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Lock “{name}”"
+msgstr "“{name}” birimini kilitle"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Delete “{name}”"
+msgstr "“{name}” bölümünü sil"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Shrink the filesystem of “{name}” to {size}"
+msgstr "“{name}” dosya sistemini {size} boyutuna küçült"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Resize “{name}” to {size}"
+msgstr "“{name}” boyutunu {size} olarak değiştir"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Grow the filesystem of “{name}” to fill its partition"
+msgstr "“{name}” dosya sistemini bölümünü dolduracak şekilde büyüt"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Create a {scheme} on “{name}”"
+msgstr "“{name}” üzerinde bir {scheme} oluştur"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Erase “{name}” as encrypted {format}"
+msgstr "“{name}” öğesini şifreli {format} olarak sil"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Erase “{name}” as {format}"
+msgstr "“{name}” öğesini {format} olarak sil"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Create “{name}”, encrypted {format}, {size}"
+msgstr "“{name}” oluştur, şifreli {format}, {size}"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Create “{name}”, {format}, {size}"
+msgstr "“{name}” oluştur, {format}, {size}"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Rename “{name}” to “{label}”"
+msgstr "“{name}” adını “{label}” olarak değiştir"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Unmounting “{name}”…"
+msgstr "“{name}” ayrılıyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Locking “{name}”…"
+msgstr "“{name}” kilitleniyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Deleting “{name}”…"
+msgstr "“{name}” siliniyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Resizing the filesystem of “{name}”…"
+msgstr "“{name}” dosya sistemi yeniden boyutlandırılıyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Resizing “{name}”…"
+msgstr "“{name}” yeniden boyutlandırılıyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Creating the partition map on “{name}”…"
+msgstr "“{name}” üzerinde bölümlendirme haritası oluşturuluyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Erasing “{name}”…"
+msgstr "“{name}” siliniyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Creating “{name}”…"
+msgstr "“{name}” oluşturuluyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "Renaming “{name}”…"
+msgstr "“{name}” yeniden adlandırılıyor…"
+
+#: src/dialogs/plan_runner.cpp
+#, python-brace-format
+msgid "“{name}” is no longer the one the changes were made for."
+msgstr "“{name}”, artık değişikliklerin yapıldığı birim değil."
+
+#: src/dialogs/plan_runner.cpp src/images/transfer.cpp
+msgid "The disk was removed or replaced by another."
+msgstr "Disk çıkarıldı veya başka bir diskle değiştirildi."
+
+#: src/dialogs/rename.cpp
+msgid "Rename Volume"
+msgstr "Birimi Yeniden Adlandır"
+
+#: src/dialogs/rename.cpp
+msgid "Rename"
+msgstr "Yeniden Adlandır"
+
+#: src/dialogs/rename.cpp
+#, python-brace-format
+msgid "{format} names have up to {n} characters and are kept in capitals."
+msgstr "{format} adları en fazla {n} karakter olabilir ve büyük harfle tutulur."
+
+#: src/dialogs/rename.cpp
+#, python-brace-format
+msgid "{format} names have up to {n} characters."
+msgstr "{format} adları en fazla {n} karakter olabilir."
+
+#: src/dialogs/rename.cpp
+msgid "The volume could not be renamed."
+msgstr "Birim yeniden adlandırılamadı."
+
+#: src/dialogs/restore.cpp
+#, python-brace-format
+msgid "Restore “{name}”"
+msgstr "“{name}” Öğesini Geri Yükle"
+
+#: src/dialogs/restore.cpp
+#, python-brace-format
+msgid "Choose a volume, disk or disk image to copy onto “{name}”. Everything on “{name}” is erased and replaced with the copy."
+msgstr "“{name}” üzerine kopyalanacak bir birim, disk veya disk kalıbı seçin. “{name}” üzerindeki her şey silinir ve kopyayla değiştirilir."
+
+#: src/dialogs/restore.cpp
+msgid "Restore From"
+msgstr "Kaynak"
+
+#: src/dialogs/restore.cpp
+msgid "Image…"
+msgstr "Kalıp…"
+
+#: src/dialogs/restore.cpp
+msgid "Restore"
+msgstr "Geri Yükle"
+
+#: src/dialogs/restore.cpp
+#, python-brace-format
+msgid "{name} ({device}, {size})"
+msgstr "{name} ({device}, {size})"
+
+#: src/dialogs/restore.cpp
+#, python-brace-format
+msgid "“{name}” is no longer there. Choose another source."
+msgstr "“{name}” artık mevcut değil. Başka bir kaynak seçin."
+
+#: src/dialogs/restore.cpp
+msgid "Choose a disk image, or attach a disk to restore from."
+msgstr "Geri yüklemek için bir disk kalıbı seçin veya bir disk bağlayın."
+
+#: src/dialogs/restore.cpp
+#, python-brace-format
+msgid "Everything on “{target}” is replaced with the contents of “{source}”. This cannot be undone."
+msgstr "“{target}” üzerindeki her şey “{source}” içeriğiyle değiştirilir. Bu işlem geri alınamaz."
+
+#: src/dialogs/restore.cpp
+#, python-brace-format
+msgid "“{source}” is unmounted before it is read, and stays so afterwards."
+msgstr "“{source}” okunmadan önce ayrılır ve işlem sonrasında da öyle kalır."
+
+#: src/dialogs/restore.cpp
+#, python-brace-format
+msgid "Erase “{target}”?"
+msgstr "“{target}” silinsin mi?"
+
+#: src/dialogs/restore.cpp
+msgid "Erase and Restore"
+msgstr "Sil ve Geri Yükle"
+
+#: src/dialogs/restore.cpp
+msgid "The restore could not start."
+msgstr "Geri yükleme başlatılamadı."
+
+#: src/dialogs/smart.cpp src/udisks/properties.cpp
+msgid "S.M.A.R.T."
+msgstr "S.M.A.R.T."
+
+#: src/dialogs/smart.cpp
+#, python-brace-format
+msgid "The attributes could not be read: {message}"
+msgstr "Öznitelikler okunamadı: {message}"
+
+#: src/dialogs/smart.cpp
+#, python-brace-format
+msgid "The self-test could not be started: {message}"
+msgstr "Otomatik sınama başlatılamadı: {message}"
+
+#: src/dialogs/smart.cpp
+msgid "Status"
+msgstr "Durum"
+
+#: src/dialogs/smart.cpp src/udisks/properties.cpp
+msgid "Temperature"
+msgstr "Sıcaklık"
+
+#: src/dialogs/smart.cpp src/udisks/properties.cpp
+msgid "Powered On"
+msgstr "Çalışma Süresi"
+
+#: src/dialogs/smart.cpp src/udisks/properties.cpp
+msgid "Bad Sectors"
+msgstr "Bozuk Sektörler"
+
+#: src/dialogs/smart.cpp src/udisks/properties.cpp
+msgid "Critical Warnings"
+msgstr "Kritik Uyarılar"
+
+#: src/dialogs/smart.cpp
+msgid "Self-Test"
+msgstr "Otomatik Sınama"
+
+#: src/dialogs/smart.cpp
+msgid "Last Read"
+msgstr "Son Okuma"
+
+#: src/dialogs/smart.cpp
+msgid "Attributes"
+msgstr "Öznitelikler"
+
+#: src/dialogs/smart.cpp
+#, python-brace-format
+msgid "Failing: {value}"
+msgstr "Arızalanıyor: {value}"
+
+#: src/dialogs/smart.cpp
+msgid "Health"
+msgstr "Sağlık"
+
+#: src/dialogs/smart.cpp
+msgid "Run Self-Test"
+msgstr "Otomatik Sınamayı Çalıştır"
+
+#: src/dialogs/unlock.cpp
+msgid "Unlock Volume"
+msgstr "Birimin Kilidini Aç"
+
+#: src/dialogs/unlock.cpp
+#, python-brace-format
+msgid "Enter the passphrase to unlock “{name}”."
+msgstr "“{name}” biriminin kilidini açmak için parolayı girin."
+
+#: src/dialogs/unlock.cpp
+msgid "Unlock"
+msgstr "Kilidi Aç"
+
+#: src/dialogs/unlock.cpp
+msgid "The passphrase is incorrect."
+msgstr "Parola yanlış."
+
+#: src/dialogs/unlock.cpp
+msgid "The volume could not be unlocked."
+msgstr "Birimin kilidi açılamadı."
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "Up to {size} of free space, from {offset} into the disk."
+msgstr "Diskin {offset} konumundan itibaren {size} boyutuna kadar boş alan."
+
+#: src/dialogs/volume_actions.cpp
+msgid "Add"
+msgstr "Ekle"
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "{format} needs at least {size}."
+msgstr "{format} için en az {size} gerekir."
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "Added “{name}”."
+msgstr "“{name}” eklendi."
+
+#: src/dialogs/volume_actions.cpp
+msgid "The partition could not be added."
+msgstr "Bölüm eklenemedi."
+
+#: src/dialogs/volume_actions.cpp
+msgid "Everything stored on the partition is deleted. This can't be undone."
+msgstr "Bölümde depolanan her şey silinir. Bu işlem geri alınamaz."
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "“{name}”"
+msgstr "“{name}”"
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "The partitions in it, {names}, and everything stored on them are deleted. This can't be undone."
+msgstr "İçindeki {names} bölümleri ve bunlarda depolanan her şey silinir. Bu işlem geri alınamaz."
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "Delete “{name}”?"
+msgstr "“{name}” silinsin mi?"
+
+#: src/dialogs/volume_actions.cpp
+msgid "Delete"
+msgstr "Sil"
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "Deleted “{name}”."
+msgstr "“{name}” silindi."
+
+#: src/dialogs/volume_actions.cpp
+#, python-brace-format
+msgid "“{name}” could not be deleted."
+msgstr "“{name}” silinemedi."
+
+#: src/dialogs/volume_format.cpp
+msgid "FAT32 (MS-DOS)"
+msgstr "FAT32 (MS-DOS)"
+
+#: src/dialogs/volume_format.cpp src/udisks/describe.cpp
+#: src/udisks/properties.cpp
+msgid "Swap"
+msgstr "Takas (Swap)"
+
+#: src/dialogs/volume_format.cpp
+msgid "The name can't contain control characters."
+msgstr "Ad denetim karakterleri içeremez."
+
+#: src/dialogs/volume_format.cpp
+msgid "FAT32 names can only use unaccented letters, digits and simple punctuation."
+msgstr "FAT32 adlarında yalnızca aksansız harfler, rakamlar ve basit noktalama işaretleri kullanılabilir."
+
+#: src/dialogs/volume_format.cpp
+#, python-brace-format
+msgid "FAT32 names can't contain “{character}”."
+msgstr "FAT32 adları “{character}” karakterini içeremez."
+
+#: src/dialogs/volume_format.cpp
+#, python-brace-format
+msgid "{format} names can have at most {count} characters."
+msgstr "{format} adları en fazla {count} karakter olabilir."
+
+#: src/dialogs/volume_format.cpp
+#, python-brace-format
+msgid "{format} names can have at most {count} bytes."
+msgstr "{format} adları en fazla {count} bayt olabilir."
+
+#: src/dialogs/volume_format.cpp
+msgid "Checking for its tools…"
+msgstr "Araçları denetleniyor…"
+
+#: src/dialogs/volume_format.cpp
+msgid "Its tools are not installed."
+msgstr "Araçları kurulu değil."
+
+#: src/dialogs/volume_format.cpp
+#, python-brace-format
+msgid "Needs {tool}, which is not installed."
+msgstr "{tool} gerekir, ancak kurulu değil."
+
+#: src/images/copy.cpp
+#, python-brace-format
+msgid "The source could not be read: {reason}"
+msgstr "Kaynak okunamadı: {reason}"
+
+#: src/images/copy.cpp
+msgid "The destination is too small."
+msgstr "Hedef çok küçük."
+
+#: src/images/copy.cpp
+#, python-brace-format
+msgid "The destination could not be written: {reason}"
+msgstr "Hedefe yazılamadı: {reason}"
+
+#: src/images/copy.cpp
+msgid "The source ended before all of it was read."
+msgstr "Tamamı okunmadan kaynak sonlandı."
+
+#: src/images/copy.cpp
+#, python-brace-format
+msgid "The data could not be saved on the destination: {reason}"
+msgstr "Veriler hedefe kaydedilemedi: {reason}"
+
+#: src/images/imagefile.cpp
+msgid "There is not enough free space for an image of that size."
+msgstr "Bu boyutta bir kalıp için yeterli boş alan yok."
+
+#: src/images/imagefile.cpp
+msgid "A file with that name already exists."
+msgstr "Bu adda bir dosya zaten var."
+
+#: src/images/imagefile.cpp
+#, python-brace-format
+msgid "The file could not be created: {reason}"
+msgstr "Dosya oluşturulamadı: {reason}"
+
+#: src/images/imagefile.cpp
+msgid "The file is too large for the disk it is on."
+msgstr "Dosya, üzerinde bulunduğu disk için çok büyük."
+
+#: src/images/progress.cpp
+#, python-brace-format
+msgid "{copied} of {total}"
+msgstr "{copied} / {total}"
+
+#: src/images/progress.cpp
+#, python-brace-format
+msgid "{size}/s"
+msgstr "{size}/sn"
+
+#: src/images/progress.cpp
+#, python-brace-format
+msgid "About {n} second left"
+msgid_plural "About {n} seconds left"
+msgstr[0] "Yaklaşık {n} saniye kaldı"
+msgstr[1] "Yaklaşık {n} saniye kaldı"
+
+#: src/images/progress.cpp
+#, python-brace-format
+msgid "About {n} minute left"
+msgid_plural "About {n} minutes left"
+msgstr[0] "Yaklaşık {n} dakika kaldı"
+msgstr[1] "Yaklaşık {n} dakika kaldı"
+
+#: src/images/progress.cpp
+#, python-brace-format
+msgid "About {n} hour left"
+msgid_plural "About {n} hours left"
+msgstr[0] "Yaklaşık {n} saat kaldı"
+msgstr[1] "Yaklaşık {n} saat kaldı"
+
+#: src/images/progress.cpp
+#, python-brace-format
+msgid "{amount} ({rate})"
+msgstr "{amount} ({rate})"
+
+#: src/images/transfer.cpp
+msgid "The destination is no longer there."
+msgstr "Hedef artık mevcut değil."
+
+#: src/images/transfer.cpp
+msgid "A volume cannot be restored from itself."
+msgstr "Bir birim kendisinden geri yüklenemez."
+
+#: src/images/transfer.cpp
+msgid "The source and the destination overlap: one lies inside the other."
+msgstr "Kaynak ve hedef çakışıyor: biri diğerinin içinde yer alıyor."
+
+#: src/images/transfer.cpp
+#, python-brace-format
+msgid "The file is compressed ({format}). Decompress it first."
+msgstr "Dosya sıkıştırılmış ({format}). Önce sıkıştırmayı açın."
+
+#: src/images/transfer.cpp
+msgid "A disk image cannot be restored onto itself."
+msgstr "Bir disk kalıbı kendi üzerine geri yüklenemez."
+
+#: src/images/transfer.cpp
+msgid "The disk image is attached and mounted. Eject it first."
+msgstr "Disk kalıbı takılı ve bağlı durumda. Önce çıkarın."
+
+#: src/images/transfer.cpp
+msgid "The source could not be read."
+msgstr "Kaynak okunamadı."
+
+#: src/images/transfer.cpp
+#, python-brace-format
+msgid "The source ({source}) is larger than the destination ({destination})."
+msgstr "Kaynak ({source}), hedeften ({destination}) daha büyük."
+
+#: src/images/transfer.cpp
+msgid "The source is empty."
+msgstr "Kaynak boş."
+
+#: src/images/transfer.cpp
+#, python-brace-format
+msgid "The source could not be opened: {reason}"
+msgstr "Kaynak açılamadı: {reason}"
+
+#: src/images/transfer.cpp
+msgid "The source could not be opened."
+msgstr "Kaynak açılamadı."
+
+#: src/images/transfer.cpp
+#, python-brace-format
+msgid "The destination could not be opened: {reason}"
+msgstr "Hedef açılamadı: {reason}"
+
+#: src/images/transfer.cpp
+msgid "The destination could not be opened."
+msgstr "Hedef açılamadı."
+
+#: src/udisks/describe.cpp
+msgid "GUID Partition Map"
+msgstr "GUID Bölümlendirme Haritası"
+
+#: src/udisks/describe.cpp
+msgid "Master Boot Record"
+msgstr "Ana Önyükleme Kaydı"
+
+#. TRANSLATORS: a disk without a model name, such as "16 GB Disk".
+#: src/udisks/describe.cpp
+#, python-brace-format
+msgid "{size} Disk"
+msgstr "{size} Disk"
+
+#: src/udisks/describe.cpp src/udisks/properties.cpp
+#: src/views/detailcontent.cpp
+msgid "Extended Partition"
+msgstr "Genişletilmiş Bölüm"
+
+#. TRANSLATORS: a volume without a label, named by its size, such as "16 GB Volume".
+#: src/udisks/describe.cpp
+#, python-brace-format
+msgid "{size} Encrypted Volume"
+msgstr "{size} Şifreli Birim"
+
+#: src/udisks/describe.cpp
+#, python-brace-format
+msgid "{size} Volume"
+msgstr "{size} Birim"
+
+#: src/udisks/describe.cpp src/udisks/properties.cpp
+msgid "SD Card"
+msgstr "SD Kart"
+
+#: src/udisks/describe.cpp src/udisks/properties.cpp
+#: src/views/detailcontent.cpp
+msgid "Disk Image"
+msgstr "Disk Kalıbı"
+
+#: src/udisks/guard.cpp
+msgid "The device is no longer available."
+msgstr "Aygıt artık kullanılamıyor."
+
+#: src/udisks/guard.cpp
+msgid "The disks of the running system could not be found."
+msgstr "Çalışan sistemin diskleri bulunamadı."
+
+#: src/udisks/guard.cpp
+msgid "The volume holds the running system."
+msgstr "Birim çalışan sistemi barındırıyor."
+
+#: src/udisks/guard.cpp
+msgid "The disk holds the running system."
+msgstr "Disk çalışan sistemi barındırıyor."
+
+#: src/udisks/operations.cpp
+msgid "Another operation on this disk is in progress."
+msgstr "Bu disk üzerinde başka bir işlem devam ediyor."
+
+#: src/udisks/operations.cpp
+msgid "The disk is no longer available."
+msgstr "Disk artık kullanılamıyor."
+
+#: src/udisks/operations.cpp
+msgid "The disk cannot be ejected."
+msgstr "Disk çıkarılamıyor."
+
+#: src/udisks/properties.cpp
+#, python-brace-format
+msgid "{n} byte"
+msgid_plural "{n} bytes"
+msgstr[0] "{n} bayt"
+msgstr[1] "{n} bayt"
+
+#: src/udisks/properties.cpp
+#, python-brace-format
+msgid "{size} ({bytes})"
+msgstr "{size} ({bytes})"
+
+#: src/udisks/properties.cpp
+msgid "EFI System"
+msgstr "EFI Sistemi"
+
+#: src/udisks/properties.cpp
+msgid "BIOS Boot"
+msgstr "BIOS Önyükleme"
+
+#: src/udisks/properties.cpp
+msgid "Linux Filesystem"
+msgstr "Linux Dosya Sistemi"
+
+#: src/udisks/properties.cpp
+msgid "Linux Root (x86-64)"
+msgstr "Linux Kök (x86-64)"
+
+#: src/udisks/properties.cpp
+msgid "Linux Root (ARM64)"
+msgstr "Linux Kök (ARM64)"
+
+#: src/udisks/properties.cpp
+msgid "Linux Home"
+msgstr "Linux Ev Dizini"
+
+#: src/udisks/properties.cpp
+msgid "Linux Extended Boot"
+msgstr "Linux Genişletilmiş Önyükleme"
+
+#: src/udisks/properties.cpp
+msgid "Linux Swap"
+msgstr "Linux Takas Alanı"
+
+#: src/udisks/properties.cpp
+msgid "Linux LVM"
+msgstr "Linux LVM"
+
+#: src/udisks/properties.cpp
+msgid "Linux RAID"
+msgstr "Linux RAID"
+
+#: src/udisks/properties.cpp
+msgid "Linux LUKS"
+msgstr "Linux LUKS"
+
+#: src/udisks/properties.cpp
+msgid "Microsoft Basic Data"
+msgstr "Microsoft Temel Veri"
+
+#: src/udisks/properties.cpp
+msgid "Microsoft Reserved"
+msgstr "Microsoft Ayrılmış"
+
+#: src/udisks/properties.cpp
+msgid "Windows Recovery"
+msgstr "Windows Kurtarma"
+
+#: src/udisks/properties.cpp
+msgid "Apple HFS+"
+msgstr "Apple HFS+"
+
+#: src/udisks/properties.cpp
+msgid "Apple APFS"
+msgstr "Apple APFS"
+
+#: src/udisks/properties.cpp
+msgid "FAT12"
+msgstr "FAT12"
+
+#: src/udisks/properties.cpp
+msgid "FAT16"
+msgstr "FAT16"
+
+#: src/udisks/properties.cpp
+msgid "Extended"
+msgstr "Genişletilmiş"
+
+#: src/udisks/properties.cpp
+msgid "NTFS or exFAT"
+msgstr "NTFS veya exFAT"
+
+#: src/udisks/properties.cpp
+msgid "FAT32"
+msgstr "FAT32"
+
+#: src/udisks/properties.cpp
+msgid "FAT32 (LBA)"
+msgstr "FAT32 (LBA)"
+
+#: src/udisks/properties.cpp
+msgid "FAT16 (LBA)"
+msgstr "FAT16 (LBA)"
+
+#: src/udisks/properties.cpp
+msgid "Extended (LBA)"
+msgstr "Genişletilmiş (LBA)"
+
+#: src/udisks/properties.cpp
+msgid "Linux"
+msgstr "Linux"
+
+#: src/udisks/properties.cpp
+msgid "Linux Extended"
+msgstr "Linux Genişletilmiş"
+
+#: src/udisks/properties.cpp
+msgid "Non-Filesystem Data"
+msgstr "Dosya Sistemi Dışı Veri"
+
+#: src/udisks/properties.cpp
+msgid "GPT Protective"
+msgstr "GPT Korumalı"
+
+#: src/udisks/properties.cpp
+msgid "Bootable"
+msgstr "Önyüklenebilir"
+
+#: src/udisks/properties.cpp
+msgctxt "partition flag"
+msgid "Required"
+msgstr "Gerekli"
+
+#: src/udisks/properties.cpp
+msgid "Ignored by Firmware"
+msgstr "Donanım Yazılımı Tarafından Yoksayılan"
+
+#: src/udisks/properties.cpp
+msgid "Legacy BIOS Bootable"
+msgstr "Eski BIOS Önyüklenebilir"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Read Only"
+msgstr "Salt Okunur"
+
+#: src/udisks/properties.cpp
+msgid "Hidden"
+msgstr "Gizli"
+
+#: src/udisks/properties.cpp
+msgid "No Automount"
+msgstr "Otomatik Bağlama Yok"
+
+#: src/udisks/properties.cpp
+msgid "Acoustic Management Enabled"
+msgstr "Akustik Yönetim Etkin"
+
+#: src/udisks/properties.cpp
+msgid "Acoustic Management Supported"
+msgstr "Akustik Yönetim Destekleniyor"
+
+#: src/udisks/properties.cpp
+msgid "Acoustic Management Recommended Value"
+msgstr "Akustik Yönetim Önerilen Değer"
+
+#: src/udisks/properties.cpp
+msgid "Active"
+msgstr "Etkin"
+
+#: src/udisks/properties.cpp
+msgid "Power Management (APM) Enabled"
+msgstr "Güç Yönetimi (APM) Etkin"
+
+#: src/udisks/properties.cpp
+msgid "Power Management (APM) Supported"
+msgstr "Güç Yönetimi (APM) Destekleniyor"
+
+#: src/udisks/properties.cpp
+msgid "Detaches When Unused"
+msgstr "Kullanılmadığında Ayrılır"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Image File"
+msgstr "Kalıp Dosyası"
+
+#: src/udisks/properties.cpp
+msgid "Can Power Off"
+msgstr "Kapatılabilir"
+
+#: src/udisks/properties.cpp
+msgid "Unlocked Configuration"
+msgstr "Kilidi Açılmış Yapılandırma"
+
+#: src/udisks/properties.cpp
+msgid "Unlocked Device"
+msgstr "Kilidi Açılmış Aygıt"
+
+#: src/udisks/properties.cpp
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Connection"
+msgstr "Bağlantı"
+
+#: src/udisks/properties.cpp
+msgid "Controller ID"
+msgstr "Denetleyici Kimliği"
+
+#: src/udisks/properties.cpp
+msgid "Encrypted Device"
+msgstr "Şifreli Aygıt"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Device"
+msgstr "Aygıt"
+
+#: src/udisks/properties.cpp
+msgid "Device Number"
+msgstr "Aygıt Numarası"
+
+#: src/udisks/properties.cpp
+msgid "Drive"
+msgstr "Sürücü"
+
+#: src/udisks/properties.cpp
+msgid "Ejectable"
+msgstr "Çıkarılabilir"
+
+#: src/udisks/properties.cpp
+msgid "FRU GUID"
+msgstr "FRU GUID"
+
+#: src/udisks/properties.cpp
+msgid "Flags"
+msgstr "Bayraklar"
+
+#: src/udisks/properties.cpp
+msgid "Mounts Automatically"
+msgstr "Otomatik Bağlanır"
+
+#: src/udisks/properties.cpp
+msgid "Icon"
+msgstr "Simge"
+
+#: src/udisks/properties.cpp
+msgid "Hidden from Users"
+msgstr "Kullanıcılardan Gizli"
+
+#: src/udisks/properties.cpp
+msgid "Suggested Name"
+msgstr "Önerilen Ad"
+
+#: src/udisks/properties.cpp
+msgid "Partitionable"
+msgstr "Bölümlendirilebilir"
+
+#: src/udisks/properties.cpp
+msgid "Symbolic Icon"
+msgstr "Sembolik Simge"
+
+#: src/udisks/properties.cpp
+msgid "System Device"
+msgstr "Sistem Aygıtı"
+
+#: src/udisks/properties.cpp
+msgid "Identifier"
+msgstr "Tanımlayıcı"
+
+#: src/udisks/properties.cpp
+msgid "Label"
+msgstr "Etiket"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "UUID"
+msgstr "UUID"
+
+#: src/udisks/properties.cpp
+msgid "Contents"
+msgstr "İçerik"
+
+#: src/udisks/properties.cpp
+msgid "Format Version"
+msgstr "Biçim Sürümü"
+
+#: src/udisks/properties.cpp
+msgid "Logical Partition"
+msgstr "Mantıksal Bölüm"
+
+#: src/udisks/properties.cpp
+msgid "RAID Array"
+msgstr "RAID Dizisi"
+
+#: src/udisks/properties.cpp
+msgid "RAID Member Of"
+msgstr "RAID Üyesi"
+
+#: src/udisks/properties.cpp
+msgid "Media"
+msgstr "Ortam"
+
+#: src/udisks/properties.cpp
+msgid "Media Present"
+msgstr "Ortam Mevcut"
+
+#: src/udisks/properties.cpp
+msgid "Media Change Detected"
+msgstr "Ortam Değişikliği Algılandı"
+
+#: src/udisks/properties.cpp
+msgid "Compatible Media"
+msgstr "Uyumlu Ortam"
+
+#: src/udisks/properties.cpp
+msgid "Removable Media"
+msgstr "Çıkarılabilir Ortam"
+
+#: src/udisks/properties.cpp
+msgid "Header Size"
+msgstr "Üstbilgi Boyutu"
+
+#: src/udisks/properties.cpp
+msgid "Model"
+msgstr "Model"
+
+#: src/udisks/properties.cpp
+msgid "Mount Points"
+msgstr "Bağlama Noktaları"
+
+#: src/udisks/properties.cpp
+msgid "NVMe Version"
+msgstr "NVMe Sürümü"
+
+#: src/udisks/properties.cpp
+msgid "Number"
+msgstr "Numara"
+
+#: src/udisks/properties.cpp
+msgid "Offset"
+msgstr "Başlangıç Konumu"
+
+#: src/udisks/properties.cpp
+msgid "Optical"
+msgstr "Optik"
+
+#: src/udisks/properties.cpp
+msgid "Blank Disc"
+msgstr "Boş Disk"
+
+#: src/udisks/properties.cpp
+msgid "Audio Tracks"
+msgstr "Ses Parçaları"
+
+#: src/udisks/properties.cpp
+msgid "Data Tracks"
+msgstr "Veri Parçaları"
+
+#: src/udisks/properties.cpp
+msgid "Sessions"
+msgstr "Oturumlar"
+
+#: src/udisks/properties.cpp
+msgid "Tracks"
+msgstr "Parçalar"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Partitions"
+msgstr "Bölümler"
+
+#: src/udisks/properties.cpp
+msgid "Power Management Enabled"
+msgstr "Güç Yönetimi Etkin"
+
+#: src/udisks/properties.cpp
+msgid "Power Management Supported"
+msgstr "Güç Yönetimi Destekleniyor"
+
+#: src/udisks/properties.cpp
+msgid "Preferred Device"
+msgstr "Tercih Edilen Aygıt"
+
+#: src/udisks/properties.cpp
+msgid "Read-Ahead Enabled"
+msgstr "Önceden Okuma Etkin"
+
+#: src/udisks/properties.cpp
+msgid "Read-Ahead Supported"
+msgstr "Önceden Okuma Destekleniyor"
+
+#: src/udisks/properties.cpp
+msgid "Removable"
+msgstr "Çıkarılabilir"
+
+#: src/udisks/properties.cpp
+msgid "Firmware Revision"
+msgstr "Donanım Yazılımı Sürümü"
+
+#: src/udisks/properties.cpp
+msgid "Rotation Rate"
+msgstr "Dönüş Hızı"
+
+#: src/udisks/properties.cpp
+msgid "Sanitize Remaining"
+msgstr "Kalan Temizleme"
+
+#: src/udisks/properties.cpp
+msgid "Sanitize Status"
+msgstr "Temizleme Durumu"
+
+#: src/udisks/properties.cpp
+msgid "Seat"
+msgstr "Yuva"
+
+#: src/udisks/properties.cpp
+msgid "Enhanced Secure Erase Time"
+msgstr "Gelişmiş Güvenli Silme Süresi"
+
+#: src/udisks/properties.cpp
+msgid "Secure Erase Time"
+msgstr "Güvenli Silme Süresi"
+
+#: src/udisks/properties.cpp
+msgid "Security Frozen"
+msgstr "Güvenlik Dondurulmuş"
+
+#: src/udisks/properties.cpp
+msgid "Serial Number"
+msgstr "Seri Numarası"
+
+#: src/udisks/properties.cpp
+msgid "Attached by User"
+msgstr "Kullanıcı Tarafından Bağlandı"
+
+#: src/udisks/properties.cpp
+msgid "Sibling Identifier"
+msgstr "Kardeş Tanımlayıcı"
+
+#: src/udisks/properties.cpp
+msgid "S.M.A.R.T. Enabled"
+msgstr "S.M.A.R.T. Etkin"
+
+#: src/udisks/properties.cpp
+msgid "Predicts Failure"
+msgstr "Arıza Öngörüyor"
+
+#: src/udisks/properties.cpp
+msgid "Attributes Failed in the Past"
+msgstr "Geçmişte Başarısız Olan Öznitelikler"
+
+#: src/udisks/properties.cpp
+msgid "Attributes Failing"
+msgstr "Başarısız Olan Öznitelikler"
+
+#: src/udisks/properties.cpp
+msgid "Self-Test Remaining"
+msgstr "Kalan Otomatik Sınama"
+
+#: src/udisks/properties.cpp
+msgid "Last Self-Test"
+msgstr "Son Otomatik Sınama"
+
+#: src/udisks/properties.cpp
+msgid "S.M.A.R.T. Supported"
+msgstr "S.M.A.R.T. Destekleniyor"
+
+#: src/udisks/properties.cpp
+msgid "S.M.A.R.T. Read"
+msgstr "S.M.A.R.T. Okuma"
+
+#: src/udisks/properties.cpp
+msgid "Sort Key"
+msgstr "Sıralama Anahtarı"
+
+#: src/udisks/properties.cpp
+msgid "State"
+msgstr "Durum"
+
+#: src/udisks/properties.cpp
+msgid "Subsystem NQN"
+msgstr "Alt Sistem NQN"
+
+#: src/udisks/properties.cpp
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Partition Map"
+msgstr "Bölümlendirme Haritası"
+
+#: src/udisks/properties.cpp
+msgid "Detected"
+msgstr "Algılandı"
+
+#: src/udisks/properties.cpp
+msgid "Media Detected"
+msgstr "Ortam Algılandı"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Type"
+msgstr "Tür"
+
+#: src/udisks/properties.cpp
+msgid "Unallocated Capacity"
+msgstr "Ayrılmamış Kapasite"
+
+#: src/udisks/properties.cpp
+msgid "Mount Options"
+msgstr "Bağlama Seçenekleri"
+
+#: src/udisks/properties.cpp
+msgid "Vendor"
+msgstr "Üretici"
+
+#: src/udisks/properties.cpp
+msgid "World Wide Name"
+msgstr "Evrensel Ad (WWN)"
+
+#: src/udisks/properties.cpp
+msgid "Write Cache Enabled"
+msgstr "Yazma Önbelleği Etkin"
+
+#: src/udisks/properties.cpp
+msgid "Write Cache Supported"
+msgstr "Yazma Önbelleği Destekleniyor"
+
+#: src/udisks/properties.cpp
+msgid "NVMe Controller"
+msgstr "NVMe Denetleyicisi"
+
+#: src/udisks/properties.cpp
+msgid "Block Device"
+msgstr "Blok Aygıtı"
+
+#: src/udisks/properties.cpp
+msgid "File System"
+msgstr "Dosya Sistemi"
+
+#: src/udisks/properties.cpp
+msgid "Yes"
+msgstr "Evet"
+
+#: src/udisks/properties.cpp
+msgid "No"
+msgstr "Hayır"
+
+#: src/udisks/properties.cpp
+msgid "Never"
+msgstr "Hiçbir Zaman"
+
+#: src/udisks/properties.cpp src/views/detailcontent.cpp
+msgid "Solid State"
+msgstr "Katı Hal (SSD)"
+
+#: src/udisks/properties.cpp
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: src/udisks/properties.cpp
+#, python-brace-format
+msgid "{n} RPM"
+msgstr "{n} RPM"
+
+#: src/udisks/properties.cpp
+#, python-brace-format
+msgid "{name} ({type})"
+msgstr "{name} ({type})"
+
+#: src/udisks/properties.cpp
+msgid "Unlocked Block Device"
+msgstr "Kilidi Açılmış Blok Aygıtı"
+
+#: src/udisks/smart.cpp
+msgid "Not Supported"
+msgstr "Desteklenmiyor"
+
+#: src/udisks/smart.cpp
+msgid "Verified"
+msgstr "Doğrulandı"
+
+#: src/udisks/smart.cpp
+msgid "Failing"
+msgstr "Arızalanıyor"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{n} °C"
+msgstr "{n} °C"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{n} hour"
+msgid_plural "{n} hours"
+msgstr[0] "{n} saat"
+msgstr[1] "{n} saat"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{n} day"
+msgid_plural "{n} days"
+msgstr[0] "{n} gün"
+msgstr[1] "{n} gün"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{days} ({hours})"
+msgstr "{days} ({hours})"
+
+#: src/udisks/smart.cpp
+msgid "In progress"
+msgstr "Devam ediyor"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "In progress, {n}% left"
+msgstr "Devam ediyor, %{n} kaldı"
+
+#: src/udisks/smart.cpp
+msgid "Completed without error"
+msgstr "Hatasız tamamlandı"
+
+#: src/udisks/smart.cpp
+msgid "Aborted"
+msgstr "Yarıda kesildi"
+
+#: src/udisks/smart.cpp
+msgid "Interrupted by a reset"
+msgstr "Sıfırlama nedeniyle kesintiye uğradı"
+
+#: src/udisks/smart.cpp
+msgid "Failed: electrical error"
+msgstr "Başarısız: elektriksel hata"
+
+#: src/udisks/smart.cpp
+msgid "Failed: servo error"
+msgstr "Başarısız: servo hatası"
+
+#: src/udisks/smart.cpp
+msgid "Failed: read error"
+msgstr "Başarısız: okuma hatası"
+
+#: src/udisks/smart.cpp
+msgid "Failed: damage found"
+msgstr "Başarısız: hasar bulundu"
+
+#: src/udisks/smart.cpp
+msgid "Failed"
+msgstr "Başarısız"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "Attribute {n}"
+msgstr "Öznitelik {n}"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{n} ms"
+msgstr "{n} ms"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{n} sector"
+msgid_plural "{n} sectors"
+msgstr[0] "{n} sektör"
+msgstr[1] "{n} sektör"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{n} minute"
+msgid_plural "{n} minutes"
+msgstr[0] "{n} dakika"
+msgstr[1] "{n} dakika"
+
+#: src/udisks/smart.cpp
+#, python-brace-format
+msgid "{value} (threshold {threshold})"
+msgstr "{value} (eşik {threshold})"
+
+#: src/udisks/smart.cpp
+msgid "Available Spare"
+msgstr "Kullanılabilir Yedek"
+
+#: src/udisks/smart.cpp
+msgid "Wear"
+msgstr "Aşınma"
+
+#: src/udisks/smart.cpp
+msgid "Data Read"
+msgstr "Okunan Veri"
+
+#: src/udisks/smart.cpp
+msgid "Data Written"
+msgstr "Yazılan Veri"
+
+#: src/udisks/smart.cpp
+msgid "Busy Time"
+msgstr "Meşguliyet Süresi"
+
+#: src/udisks/smart.cpp
+msgid "Power Cycles"
+msgstr "Güç Döngüsü"
+
+#: src/udisks/smart.cpp
+msgid "Unsafe Shutdowns"
+msgstr "Güvenli Olmayan Kapanmalar"
+
+#: src/udisks/smart.cpp
+msgid "Media Errors"
+msgstr "Ortam Hataları"
+
+#: src/udisks/smart.cpp
+msgid "Error Log Entries"
+msgstr "Hata Günlüğü Girdileri"
+
+#: src/udisks/smart.cpp
+msgid "Warning Temperature"
+msgstr "Uyarı Sıcaklığı"
+
+#: src/udisks/smart.cpp
+msgid "Critical Temperature"
+msgstr "Kritik Sıcaklık"
+
+#: src/udisks/smart.cpp
+msgid "Time Above Warning"
+msgstr "Uyarı Sınırı Üzerindeki Süre"
+
+#: src/udisks/smart.cpp
+msgid "Time Above Critical"
+msgstr "Kritik Sınır Üzerindeki Süre"
+
+#: src/views/detail.cpp
+msgid "No Disks"
+msgstr "Disk Yok"
+
+#: src/views/detail.cpp
+msgid "Disks, volumes and disk images show here when they are attached."
+msgstr "Diskler, birimler ve disk kalıpları bağlandıklarında burada görünür."
+
+#: src/views/detailcards.cpp
+#, python-brace-format
+msgid "{percent}%"
+msgstr "%{percent}"
+
+#: src/views/detailcontent.cpp
+msgid "Erasing"
+msgstr "Siliniyor"
+
+#: src/views/detailcontent.cpp
+msgid "Checking"
+msgstr "Denetleniyor"
+
+#: src/views/detailcontent.cpp
+msgid "Repairing"
+msgstr "Onarılıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Resizing"
+msgstr "Yeniden boyutlandırılıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Mounting"
+msgstr "Bağlanıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Unmounting"
+msgstr "Ayrılıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Adding a partition"
+msgstr "Bölüm ekleniyor"
+
+#: src/views/detailcontent.cpp
+msgid "Deleting a partition"
+msgstr "Bölüm siliniyor"
+
+#: src/views/detailcontent.cpp
+msgid "Changing the partition"
+msgstr "Bölüm değiştiriliyor"
+
+#: src/views/detailcontent.cpp
+msgid "Unlocking"
+msgstr "Kilidi açılıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Locking"
+msgstr "Kilitleniyor"
+
+#: src/views/detailcontent.cpp
+msgid "Ejecting"
+msgstr "Çıkarılıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Powering off"
+msgstr "Kapatılıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Running a self-test"
+msgstr "Otomatik sınama çalıştırılıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Attaching"
+msgstr "Bağlanıyor"
+
+#: src/views/detailcontent.cpp
+msgid "Working"
+msgstr "Çalışıyor"
+
+#: src/views/detailcontent.cpp src/views/sidebar.cpp
+msgid "External"
+msgstr "Harici"
+
+#: src/views/detailcontent.cpp src/views/sidebar.cpp
+msgid "Internal"
+msgstr "Dahili"
+
+#: src/views/detailcontent.cpp
+msgid "Optical Disc"
+msgstr "Optik Disk"
+
+#: src/views/detailcontent.cpp
+msgid "Flash Memory"
+msgstr "Flash Bellek"
+
+#: src/views/detailcontent.cpp
+msgid "Hard Disk"
+msgstr "Sabit Disk"
+
+#. TRANSLATORS: an encrypted volume that is locked, such as "LUKS (Locked)".
+#: src/views/detailcontent.cpp
+#, python-brace-format
+msgid "{type} (Locked)"
+msgstr "{type} (Kilitli)"
+
+#. TRANSLATORS: an unlocked encrypted volume, such as "ext4 (Encrypted)".
+#: src/views/detailcontent.cpp
+#, python-brace-format
+msgid "{type} (Encrypted)"
+msgstr "{type} (Şifreli)"
+
+#: src/views/detailcontent.cpp
+msgid "Free"
+msgstr "Boş"
+
+#: src/views/detailcontent.cpp
+msgid "Location"
+msgstr "Konum"
+
+#: src/views/detailcontent.cpp
+msgid "Capacity"
+msgstr "Kapasite"
+
+#: src/views/detailcontent.cpp
+msgid "S.M.A.R.T. Status"
+msgstr "S.M.A.R.T. Durumu"
+
+#: src/views/detailcontent.cpp
+msgid "Access"
+msgstr "Erişim"
+
+#: src/views/detailcontent.cpp
+msgid "Used"
+msgstr "Kullanılan"
+
+#: src/views/detailcontent.cpp
+msgid "Other"
+msgstr "Diğer"
+
+#: src/views/detailcontent.cpp
+msgid "Mount Point"
+msgstr "Bağlama Noktası"
+
+#: src/views/detailcontent.cpp
+msgid "Not Mounted"
+msgstr "Bağlı Değil"
+
+#: src/views/detailcontent.cpp
+msgid "Available"
+msgstr "Kullanılabilir"
+
+#: src/views/detailcontent.cpp
+msgid "Owner"
+msgstr "Sahip"
+
+#: src/views/diskwindow.cpp src/views/toolbar.cpp cutefish-disk-utility.desktop
+msgid "Disk Utility"
+msgstr "Disk İzlencesi"
+
+#: src/views/diskwindow.cpp
+msgid "The operation was refused."
+msgstr "İşlem reddedildi."
+
+#: src/views/diskwindow.cpp
+msgid "Show Only Volumes"
+msgstr "Yalnızca Birimleri Göster"
+
+#: src/views/diskwindow.cpp
+msgid "Show All Devices"
+msgstr "Tüm Aygıtları Göster"
+
+#: src/views/diskwindow.cpp
+msgid "An operation is in progress."
+msgstr "Bir işlem devam ediyor."
+
+#: src/views/diskwindow.cpp
+msgid "Quitting now stops it partway, which can leave the disk unusable. Wait until it is done."
+msgstr "Şimdi çıkmak işlemi yarıda keser ve diski kullanılamaz durumda bırakabilir. Bitene kadar bekleyin."
+
+#: src/views/diskwindow.cpp
+msgid "Keep Running"
+msgstr "Çalıştırmaya Devam Et"
+
+#: src/views/diskwindow.cpp
+msgid "Quit Anyway"
+msgstr "Yine de Çık"
+
+#: src/views/diskwindow.cpp
+msgid "OK"
+msgstr "Tamam"
+
+#: src/views/diskwindow.cpp
+msgid "Erases, partitions, checks and images the disks of your computer."
+msgstr "Bilgisayarınızdaki diskleri siler, bölümlendirir, denetler ve kalıplarını oluşturur."
+
+#: src/views/diskwindow.cpp
+msgid "About Disk Utility"
+msgstr "Disk İzlencesi Hakkında"
+
+#: src/views/diskwindow.cpp
+msgid "Hide Disk Utility"
+msgstr "Disk İzlencesi'ni Gizle"
+
+#: src/views/diskwindow.cpp
+msgid "Quit Disk Utility"
+msgstr "Disk İzlencesi'nden Çık"
+
+#: src/views/diskwindow.cpp
+msgid "File"
+msgstr "Dosya"
+
+#: src/views/diskwindow.cpp
+msgid "New Image"
+msgstr "Yeni Kalıp"
+
+#: src/views/diskwindow.cpp
+msgid "Close Window"
+msgstr "Pencereyi Kapat"
+
+#: src/views/diskwindow.cpp
+msgid "Edit"
+msgstr "Düzenle"
+
+#: src/views/diskwindow.cpp
+msgid "Window"
+msgstr "Pencere"
+
+#: src/views/diskwindow.cpp
+msgid "Minimize"
+msgstr "Simge Durumuna Küçült"
+
+#: src/views/diskwindow.cpp
+msgid "Zoom"
+msgstr "Büyüt"
+
+#: cutefish-disk-utility.desktop
+msgid "Manage disks, volumes and disk images"
+msgstr "Diskleri, birimleri ve disk kalıplarını yönetin"
+
+#: cutefish-disk-utility.desktop
+msgid "Disk;Drive;Volume;Partition;Format;Erase;Mount;Image;ISO;USB;"
+msgstr "Disk;Sürücü;Birim;Bölüm;Biçimlendir;Sil;Bağla;Kalıp;ISO;USB;"
